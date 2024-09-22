@@ -29,4 +29,4 @@ def predict(data: Input) -> Output:
     prediction = model.predict(X_input)
 
     # return output
-    return Output(SalesInMillions = prediction,msg="CICD Test")
+    return Output(SalesInMillions = prediction,msg = "CICD Test")
